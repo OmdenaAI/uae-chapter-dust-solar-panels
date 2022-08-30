@@ -1,8 +1,8 @@
-# chapter-project-repository-template
-Use this Repository as a template for creating Local Chapter Repositories
+# Omdena UAE Chapter
+ 
 
 
-# [Chapter Challenge Name]
+# United Arab Emirates Chapter - Machine Learning Approach to Detect Dust on Solar Panels in UAE. A Contribution toward Optimizing Cleaning Plan
 
 
 ## Contribution Guidelines
