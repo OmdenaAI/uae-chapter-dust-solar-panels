@@ -13,7 +13,8 @@ W4.1 System testing and accuracy reporting
 
 
 ## Alexnet - 81.25 Accuracy
-
+  
+Notebook : ![link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/alexnet.ipynb)
 Accuracy Plot:   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Accuracy%20Plot.jpg>  
 Confusion Matrix :    
