@@ -20,7 +20,7 @@ Model Weight: [link](https://drive.google.com/drive/folders/1d_J10h4Q70zJEJEHwJ0
 Accuracy Plot:   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Accuracy%20Plot.jpg>  
 Confusion Matrix :    
-<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Screenshot%202022-09-25%20025622.jpg>
+<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Screenshot%202022-09-25%20025622.jpg>  
 Classification Report :  
 <img src = https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/AlexReport.jpg>  
   
