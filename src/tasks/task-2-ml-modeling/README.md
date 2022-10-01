@@ -1,9 +1,9 @@
-W2.2 Prepare/ Explore ML approaches
-W3.1 Explore the pre-trained network and ML models
-W3.2 CNN training and validation
-W3.3 Performing transfer learning
-W4.1 System testing and accuracy reporting
-
+W2.2 Prepare/ Explore ML approaches  
+W3.1 Explore the pre-trained network and ML models  
+W3.2 CNN training and validation  
+W3.3 Performing transfer learning  
+W4.1 System testing and accuracy reporting  
+   
 # Model Finetuning and Results:  
 
 *Goal:  Classification of solar panel images to Clean PV and Dirty PV  
@@ -15,6 +15,7 @@ W4.1 System testing and accuracy reporting
 ## Alexnet - 81.25 Accuracy  
   
 Notebook : [link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/alexnet.ipynb)  
+Model Weight: [link](https://drive.google.com/drive/folders/1d_J10h4Q70zJEJEHwJ03iOvhhG9f_beP?usp=sharing)
   
 Accuracy Plot:   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Accuracy%20Plot.jpg>  
@@ -31,6 +32,7 @@ Fine Tuning:
  ## Restnet18 - 89.77272 Accuracy  
    
  Notebook : [link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/resnet_18.ipynb)   
+ Model Weight: [link](https://drive.google.com/drive/folders/1kGv3bCGjkxcsVfyzaV38K1JgY4DCP-Jw?usp=sharing)
    
  Accuracy Plot:   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/resnetplt.jpg>    
@@ -50,6 +52,7 @@ Fine Tuning:
 ## Densenet121 - 91.48
   
 Notebook : [link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/densenet121.ipynb)   
+Model Weight: [link](https://drive.google.com/drive/folders/16YuKZPtUzPvpixC3iadRGCfmC-RjJpO-?usp=sharing)
    
 Accuracy Plot:   
 Training:  
