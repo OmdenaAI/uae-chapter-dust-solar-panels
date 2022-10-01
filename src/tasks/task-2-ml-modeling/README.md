@@ -12,9 +12,10 @@ W4.1 System testing and accuracy reporting
 *Test Data has a total of 121 samples with 61 in each class  
 
 
-## Alexnet - 81.25 Accuracy
+## Alexnet - 81.25 Accuracy  
   
-Notebook : ![link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/alexnet.ipynb)
+Notebook : [link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/alexnet.ipynb)  
+  
 Accuracy Plot:   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Accuracy%20Plot.jpg>  
 Confusion Matrix :    
@@ -28,6 +29,8 @@ Fine Tuning:
    * Dataset was randomly shuffled  
     
  ## Restnet18 - 89.77272 Accuracy  
+   
+ Notebook : [link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/resnet_18.ipynb)   
    
  Accuracy Plot:   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/resnetplt.jpg>    
@@ -45,6 +48,8 @@ Fine Tuning:
    * Training loss at epoch 19: 0.22, validation loss: 0.3107  
 
 ## Densenet121 - 91.48
+  
+Notebook : [link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/densenet121.ipynb)   
    
 Accuracy Plot:   
 Training:  
