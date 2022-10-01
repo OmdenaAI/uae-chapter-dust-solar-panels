@@ -5,7 +5,13 @@ W3.3 Performing transfer learning
 W4.1 System testing and accuracy reporting
 
 # Model Finetuning and Results:  
-   
+
+*Goal:  Classification of solar panel images to Clean PV and Dirty PV  
+*Classes :  CleanPV, DirtyPV  
+*Used a balanced dataset of 880:880 for training.  
+*Test Data has a total of 121 samples with 61 in each class  
+
+
 ## Alexnet - 81.25 Accuracy
 
 Accuracy Plot:   
@@ -18,5 +24,42 @@ Fine Tuning:
    * Batch size – 128  
    * Train Validation split: 80:20  
    * Optimizer- SGD, Learning rate – 0.01, stepsize – 11  
+   * Dataset was randomly shuffled  
+    
+ ## Restnet18 - 89.77272 Accuracy  
+   
+ Accuracy Plot:   
+<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/resnetplt.jpg>    
+Confusion Matrix :     
+<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/resnetcon.png>  
+
+Fine Tuning:
+   * Number of epochs trained -19
+   * Batch size -16
+   * Train validation split :80-20.
+   * Optimizer -SGD, Learning rate -0.001, stepsize -20
+   * Dataset was randomly shuffled
+   * Earlystopping
+   * Test Accuracy  for 10 images is 70 as I used only 10 images and out of 10 , 7 images are getting detected correctly. Colab is crashing when I try to test with        more than 10 images.
+   * Training loss at epoch 19: 0.22, validation loss: 0.3107  
+
+## Densenet121 - 91.48
+   
+Accuracy Plot:   
+Training:  
+<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/training.png>    
+Finetuning:  
+<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/DenseNet.png>  
+  
+Classification Report:  
+<img src = https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Densenetreport.png>  
+
+   
+Fine Tuning  
+   * Number of epochs trained -25(used early stopping and model checkpoints)  
+   * Batch size -16  
+   * Train validation split :80-20.  
+   * Optimizer -SGD, Learning rate -0.001, #stepsize :nb_validation_samples = len(validation_generator.filenames)  
+   * validation_steps = int(math.ceil(nb_validation_samples / batch_size))  
    * Dataset was randomly shuffled  
 
