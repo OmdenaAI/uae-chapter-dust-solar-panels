@@ -9,6 +9,6 @@ W4.1 System testing and accuracy reporting
 Alexnet - 81.25 Accuracy
 
 Accuracy Plot:   
-![image](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Accuracy%20Plot.jpg)  
+<img src = https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Accuracy%20Plot.jpg>
 Confusion Matrix :   
 ![img](https://files.slack.com/files-pri/T0403DXQU3E-F043VJJMQR2/screenshot_2022-09-25_025622.jpg)
