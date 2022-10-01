@@ -28,6 +28,7 @@ Fine Tuning:
    * Train Validation split: 80:20  
    * Optimizer- SGD, Learning rate – 0.01, stepsize – 11  
    * Dataset was randomly shuffled  
+   * Framework : Tensorflow
     
  ## Restnet18 - 89.77272 Accuracy  
    
@@ -48,6 +49,7 @@ Fine Tuning:
    * Earlystopping
    * Test Accuracy  for 10 images is 70 as I used only 10 images and out of 10 , 7 images are getting detected correctly. Colab is crashing when I try to test with        more than 10 images.
    * Training loss at epoch 19: 0.22, validation loss: 0.3107  
+   * Framework: PyTorch
 
 ## Densenet121 - 91.48
   
@@ -71,4 +73,5 @@ Fine Tuning
    * Optimizer -SGD, Learning rate -0.001, #stepsize :nb_validation_samples = len(validation_generator.filenames)  
    * validation_steps = int(math.ceil(nb_validation_samples / batch_size))  
    * Dataset was randomly shuffled  
+   * Framework: Tensorflow
 
