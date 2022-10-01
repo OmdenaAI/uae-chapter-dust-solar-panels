@@ -8,5 +8,5 @@ W4.1 System testing and accuracy reporting
    
 Alexnet - 81.25 Accuracy
 
-Accuracy Plot: [!img](https://files.slack.com/files-pri/T0403DXQU3E-F043CJ129GX/accuracy_plot.jpg)  
-Confusion Matrix : [!img](https://files.slack.com/files-pri/T0403DXQU3E-F043VJJMQR2/screenshot_2022-09-25_025622.jpg)
+Accuracy Plot: ![img](https://files.slack.com/files-pri/T0403DXQU3E-F043CJ129GX/accuracy_plot.jpg)  
+Confusion Matrix : ![img](https://files.slack.com/files-pri/T0403DXQU3E-F043VJJMQR2/screenshot_2022-09-25_025622.jpg)
