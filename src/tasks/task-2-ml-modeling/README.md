@@ -39,6 +39,8 @@ Fine Tuning:
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/resnetplt.jpg>    
 Confusion Matrix :     
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/resnetcon.png>  
+Classification Report :  
+<img src = https://files.slack.com/files-pri/T0403DXQU3E-F043U8X9PK5/screenshot_2022-09-25_202658.jpg>  
 
 Fine Tuning:
    * Number of epochs trained -19
