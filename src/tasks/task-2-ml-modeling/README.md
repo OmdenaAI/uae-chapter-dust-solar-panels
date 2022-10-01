@@ -4,11 +4,19 @@ W3.2 CNN training and validation
 W3.3 Performing transfer learning
 W4.1 System testing and accuracy reporting
 
-## Model Finetuning and Results:  
+# Model Finetuning and Results:  
    
-Alexnet - 81.25 Accuracy
+## Alexnet - 81.25 Accuracy
 
 Accuracy Plot:   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Accuracy%20Plot.jpg>  
 Confusion Matrix :    
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Screenshot%202022-09-25%20025622.jpg>
+
+Fine Tuning:   
+   * Number of epochs trained -100  
+   * Batch size – 128  
+   * Train Validation split: 80:20  
+   * Optimizer- SGD, Learning rate – 0.01, stepsize – 11  
+   * Dataset was randomly shuffled  
+
