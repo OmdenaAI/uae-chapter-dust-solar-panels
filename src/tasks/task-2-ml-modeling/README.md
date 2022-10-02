@@ -94,11 +94,11 @@ Classification Report of Testset:
    
    
 Fine Tuning  
-   * Batch size -32
+   * Batch size - 32
    * StratifiedKFold to randomly split into multiple combinations train/val set
    * Optimizer - ADAM  
    * Learning rate - 0.0003, 
-   * Early Stopping, Patience = 5
+   * Early Stopping, Patience - 5
    * lr_scheduler.ReduceLROnPlateau for reducing learning rate when a metric has stopped improving
    * Dataset was randomly shuffled  
    * Framework: PyTorch
