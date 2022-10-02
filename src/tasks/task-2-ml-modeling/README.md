@@ -99,7 +99,6 @@ Fine Tuning
    * Optimizer - ADAM  
    * Learning rate - 0.0003, 
    * Early Stopping, Patience = 5
-   * validation_steps = int(math.ceil(nb_validation_samples / batch_size))  
    * lr_scheduler.ReduceLROnPlateau for reducing learning rate when a metric has stopped improving
    * Dataset was randomly shuffled  
    * Framework: PyTorch
