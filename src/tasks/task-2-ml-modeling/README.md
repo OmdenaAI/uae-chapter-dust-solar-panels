@@ -17,11 +17,11 @@ W4.1 System testing and accuracy reporting
 Notebook : [link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/alexnet.ipynb)  
 Model Weight: [link](https://drive.google.com/drive/folders/1d_J10h4Q70zJEJEHwJ03iOvhhG9f_beP?usp=sharing)
   
-Accuracy Plot:   
+Accuracy Plot(Validation):   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Accuracy%20Plot.jpg>  
-Confusion Matrix :    
+Confusion Matrix for the TestSet:    
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Screenshot%202022-09-25%20025622.jpg>  
-Classification Report :  
+Classification Report for the TestSet:  
 <img src = https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/AlexReport.jpg>  
   
   
@@ -38,14 +38,14 @@ Fine Tuning:
  Notebook : [link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/resnet_18.ipynb)   
  Model Weight: [link](https://drive.google.com/drive/folders/1kGv3bCGjkxcsVfyzaV38K1JgY4DCP-Jw?usp=sharing)
    
- Accuracy Plot:   
+ Accuracy Plot(Validation):   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/resnetplt.jpg>    
-Confusion Matrix :     
+Confusion Matrix for the TestSet:     
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/resnetcon.png>  
 
 
 Fine Tuning:
-   * Number of epochs trained -19
+   * Number of epochs trained (Earlystopping)-19
    * Batch size -16
    * Train validation split :80-20.
    * Optimizer -SGD, Learning rate -0.001, stepsize -20
@@ -66,7 +66,7 @@ Training:
 Finetuning:  
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/DenseNet.png>  
   
-Classification Report:  
+Classification Report for Testset:  
 <img src = https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Densenetreport.png>  
 
    
@@ -79,3 +79,27 @@ Fine Tuning
    * Dataset was randomly shuffled  
    * Framework: Tensorflow
 
+  
+## EfficientNet-B3 - 93.899 Accuracy
+  
+Notebook : [link](https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/EfficientNet_b3_SolarPanelClassification.ipynb)   
+Model Weight: [link](https://drive.google.com/drive/folders/1ic2tMHX5FoftrTjs-9nGvtaIujpDEEml?usp=sharing)  
+  
+Accuracy Plot for Validation:   
+<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Efficientplot.png>    
+Confusion Matrix for Testset:     
+<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/efficientcm.jpg>  
+Classification Report of Testset:
+<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/efficientreport.jpg>  
+   
+   
+Fine Tuning  
+   * Batch size -32
+   * StratifiedKFold to randomly split into multiple combinations train/val set
+   * Optimizer - ADAM  
+   * Learning rate - 0.0003, 
+   * Early Stopping, Patience = 5
+   * validation_steps = int(math.ceil(nb_validation_samples / batch_size))  
+   * lr_scheduler.ReduceLROnPlateau for reducing learning rate when a metric has stopped improving
+   * Dataset was randomly shuffled  
+   * Framework: PyTorch
