@@ -95,7 +95,7 @@ Classification Report of Testset:
    
 Fine Tuning  
    * Batch size - 32
-   * StratifiedKFold to randomly split into multiple combinations train/val set
+   * StratifiedKFold to randomly split into multiple combinations of train/val set
    * Optimizer - ADAM  
    * Learning rate - 0.0003, 
    * Early Stopping, Patience - 5
