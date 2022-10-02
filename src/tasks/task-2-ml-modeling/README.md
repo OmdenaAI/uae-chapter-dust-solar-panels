@@ -19,10 +19,10 @@ Model Weight: [link](https://drive.google.com/drive/folders/1d_J10h4Q70zJEJEHwJ0
   
 Accuracy Plot(Validation):   
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Accuracy%20Plot.jpg>  
-Confusion Matrix for the TestSet:    
-<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Screenshot%202022-09-25%20025622.jpg>  
-Classification Report for the TestSet:  
-<img src = https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/AlexReport.jpg>  
+Confusion Matrix for the TestSet:      
+<img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Screenshot%202022-09-25%20025622.jpg>    
+Classification Report for the TestSet:    
+<img src = https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/AlexReport.jpg>    
   
   
 Fine Tuning:   
@@ -89,7 +89,7 @@ Accuracy Plot for Validation:
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/Efficientplot.png>    
 Confusion Matrix for Testset:     
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/efficientcm.jpg>  
-Classification Report of Testset:
+Classification Report of Testset:  
 <img src=https://github.com/OmdenaAI/uae-chapter-dust-solar-panels/blob/main/src/tasks/task-2-ml-modeling/Assets/efficientreport.jpg>  
    
    
